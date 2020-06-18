@@ -174,7 +174,7 @@ void rrt:: AddNode(Node* a,std::vector<float> &b)
 }
 std::vector<Node*> rrt::generatepath()
 {
-    std::vector<Node*> tempPath;
+    std::vector<Node*> tempPath;//Stores the path
     Node* temp=new Node;
     temp=finalNode;
     while(temp !=NULL)
